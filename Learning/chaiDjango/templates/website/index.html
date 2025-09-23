@@ -1,4 +1,15 @@
-{% load static %}
+{% extends "layout.html" %} 
+{% comment %} You must write the path of the base file which you want to extent (like inheritance) {% endcomment %}
+
+{% block title %} 
+  Homepage 
+{% endblock  %}
+
+{% block content %}
+  <h1>Chai aur code homepage</h1>
+{% endblock  %}
+
+{% comment %} {% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,4 +22,4 @@
 <body>
   <h1>Learning Django internally by ChaiAurCode</h1>
 </body>
-</html>
+</html> {% endcomment %}
